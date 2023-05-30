@@ -3,42 +3,121 @@
 <head>
   <title>Robbie Robinson - Personal Website</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+body {
+      background-color: #f2f7ff;
+    }
+
+    header {
+      background-color: #183a69;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    section {
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    h2 {
+      color: #183a69;
+      font-size: 24px;
+    }
+
+    p {
+      color: #183a69;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #183a69;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .photo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .photo img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Robbie Robinson</h1>
   </header>
   
-  <section>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#job">Job</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#social">Social Media</a></li>
+      <li><a href="#photo">Photo</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
     <h2>About Me</h2>
-    <p>Hello! My name is Robbie, and I am an adventurous individual who finds joy in exploring water sports, playing Rugby, immersing myself in the great outdoors, and taking part in triathlons. Originally hailing from the beautiful region of Devon in the United Kingdom, I now call the vibrant city of London my home. With a deep appreciation for nature's wonders and a passion for pushing my physical limits, I thrive on the challenges and exhilaration that these activities bring. Whether I'm riding the waves, competing on the rugby field, or embarking on a thrilling triathlon, I embrace every opportunity to embrace an active lifestyle. Join me on this exciting journey of adventure and personal growth!</p>
+    <p>Hello! My name is Robbie Robinson and I am passionate about <em>put your passion or interests here</em>. I believe in constantly learning and exploring new things to expand my knowledge and skills.</p>
   </section>
   
-  <section>
+  <section id="job">
     <h2>Job</h2>
-    <p>I am currently employed as the Head of Field Operations at Streetbees, a leading data intelligence company. In my role, I have the privilege of leading a talented team that is responsible for managing data collection processes. We strive to gather valuable insights from various sources to help businesses make informed decisions. At Streetbees, we are constantly innovating and exploring new technologies to improve the survey experience for our clients. Currently, our team is actively leveraging the power of Artificial Intelligence (AI) and ChatGPT to enhance the accuracy, efficiency, and overall quality of our data collection methods. It is truly exciting to be at the forefront of this technological advancement, revolutionizing how we collect and analyze data for the benefit of our clients.</p>
+    <p>I currently work as the Head of Field Operations at Streetbees. I lead a team that manages data collection and we are actively working on using AI and ChatGPT to enhance our survey experience.</p>
   </section>
   
-  <section>
+  <section id="hobbies">
     <h2>Hobbies</h2>
     <ul>
-      <li>Surfing</li>
-      <li>Guitar</li>
-      <li>Building websites</li>
+      <li>Hobby 1</li>
+      <li>Hobby 2</li>
+      <li>Hobby 3</li>
     </ul>
   </section>
   
-  <section>
+  <section id="cv">
     <h2>CV</h2>
-    <p>Download my CV <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a>.</p>
+    <p>Download my CV <a href="path/to/your/cv.pdf">here</a>.</p>
   </section>
   
-  <section>
+  <section id="social">
     <h2>Social Media</h2>
     <ul>
-      <li><a href="https://www.facebook.com/robbie.robinson.3745">Facebook</a></li>
-      <li><a href="https://www.linkedin.com/in/robbie-robinson-334664169/">LinkedIn</a></li>
+      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+      <li><a href="https://www.twitter.com/">Twitter</a></li>
+      <li><a href="https://www.github.com/">GitHub</a></li>
     </ul>
+  </section>
+
+  <section id="photo">
+    <h2>Photo</h2>
+    <div class="photo">
+      <img src="images/178128092_518623075818400_8516891870586784764_n.jpg" alt="Robbie Robinson">
+    </div>
   </section>
 </body>
 </html>
+
