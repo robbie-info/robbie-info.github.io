@@ -3,9 +3,14 @@
 <head>
   <title>Robbie Robinson - Personal Website</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD4Ck5BdPtF+to8xMmUrebc8" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
   <style>
-body {
+    body {
       background-color: #f2f7ff;
+      margin: 0;
+      font-family: Arial, sans-serif;
     }
 
     header {
@@ -16,8 +21,8 @@ body {
     }
 
     h1 {
-      margin: 0;
       font-size: 32px;
+      margin: 0;
     }
 
     section {
@@ -32,53 +37,77 @@ body {
       font-size: 24px;
     }
 
-    p {
-      color: #183a69;
+    .photo {
+      text-align: center;
+      margin-bottom: 20px;
     }
 
+    img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #fff;
+      padding: 10px;
+    }
+  
     ul {
       list-style-type: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
       padding: 0;
     }
 
     a {
       text-decoration: none;
       color: #183a69;
+      transition: all 0.3s;
     }
 
     a:hover {
       text-decoration: underline;
     }
-
-    .photo {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .photo img {
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-    }
   </style>
+  <script>
+    $(document).ready(function() {
+      $('a[href^="#"]').on('click', function(event) {
+        event.preventDefault();
+        var targetElem = this.hash;
+        $('html, body').animate({
+          scrollTop: $(targetElem).offset().top
+        }, 800);
+      });
+    });
+  </script>
 </head>
 <body>
   <header>
     <h1>Robbie Robinson</h1>
   </header>
-  
   <nav>
     <ul>
+      <li><a href="#photo">Photo</a></li>
       <li><a href="#about">About Me</a></li>
       <li><a href="#job">Job</a></li>
       <li><a href="#hobbies">Hobbies</a></li>
       <li><a href="#cv">CV</a></li>
       <li><a href="#social">Social Media</a></li>
-      <li><a href="#photo">Photo</a></li>
     </ul>
   </nav>
 
+  <section id="photo">
+    <h2>Photo</h2>
+    <div class="photo">
+      <img src="images/178128092_518623075818400_8516891870586784764_n.jpg" alt="Robbie Robinson">
+    </div>
+  </section>
+  
   <section id="about">
     <h2>About Me</h2>
     <p>Hello! My name is Robbie Robinson and I am passionate about <em>put your passion or interests here</em>. I believe in constantly learning and exploring new things to expand my knowledge and skills.</p>
@@ -106,18 +135,27 @@ body {
   <section id="social">
     <h2>Social Media</h2>
     <ul>
-      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-      <li><a href="https://www.twitter.com/">Twitter</a></li>
-      <li><a href="https://www.github.com/">GitHub</a></li>
+      <li>
+        <a href="https://www.linkedin.com/">
+          <i class="fab fa-linkedin"></i>
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com/">
+          <i class="fab fa-twitter"></i>
+          Twitter
+        </a>
+      </li>
+      <li>
+        <a href="https://www.github.com/">
+          <i class="fab fa-github"></i>
+          GitHub
+        </a>
+      </li>
     </ul>
-  </section>
-
-  <section id="photo">
-    <h2>Photo</h2>
-    <div class="photo">
-      <img src="images/178128092_518623075818400_8516891870586784764_n.jpg" alt="Robbie Robinson">
-    </div>
   </section>
 </body>
 </html>
+```
 
