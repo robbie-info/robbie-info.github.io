@@ -4,109 +4,121 @@
   <title>Robbie Robinson - Personal Website</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <style>
-    body {
-      background-color: #f2f7ff;
-    }
+  body {
+    background-color: #f2f7ff;
+  }
 
-    header {
-      background-color: #183a69;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
+  header {
+    background-color: #183a69;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
 
-    h1 {
-      margin: 0;
-      font-size: 32px;
-    }
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
 
-    section {
-      margin-bottom: 20px;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 5px;
-    }
+  section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
 
-    h2 {
-      color: #183a69;
-      font-size: 24px;
-    }
+  h2 {
+    color: #183a69;
+    font-size: 24px;
+  }
 
-    p {
-      color: #183a69;
-    }
+  p {
+    color: #183a69;
+  }
 
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
 
-    a {
-      text-decoration: none;
-      color: #183a69;
-    }
+  a {
+    text-decoration: none;
+    color: #183a69;
+  }
 
-    a:hover {
-      text-decoration: underline;
-    }
+  a:hover {
+    text-decoration: underline;
+  }
 
-    .photo {
-      text-align: center;
-      margin-bottom: 20px;
-    }
+  .photo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-    .photo img {
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-    }
+  .photo img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
   </style>
-  </head>
-  <body>
-    <header>
-      <h1>Robbie Robinson</h1>
-    </header>
-    
-    <section>
-      <h2>About Me</h2>
-      <p>Hello! My name is Robbie Robinson and I am passionate about <em>put your passion or interests here</em>. I believe in constantly learning and exploring new things to expand my knowledge and skills.</p>
-    </section>
-    
-    <section>
-      <h2>Job</h2>
-      <p>I currently work as the Head of Field Operations at Streetbees. I lead a team that manages data collection and we are actively working on using AI and ChatGPT to enhance our survey experience.</p>
-    </section>
-    
-    <section>
-      <h2>Hobbies</h2>
-      <ul>
-        <li>Hobby 1</li>
-        <li>Hobby 2</li>
-        <li>Hobby 3</li>
-      </ul>
-    </section>
-    
-    <section>
-      <h2>CV</h2>
-      <p>Download my CV <a href="path/to/your/cv.pdf">here</a>.</p>
-    </section>
-    
-    <section>
-      <h2>Social Media</h2>
-      <ul>
-        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-        <li><a href="https://www.twitter.com/">Twitter</a></li>
-        <li><a href="https://www.github.com/">GitHub</a></li>
-      </ul>
-    </section>
+</head>
+<body>
+  <header>
+    <h1>Robbie Robinson</h1>
+  </header>
   
-    <section>
-      <h2>Photo</h2>
-      <div class="photo">
-        <img src="images/178128092_518623075818400_8516891870586784764_n.jpg" alt="Robbie Robinson">
-      </div>
-    </section>
-  </body>
-  </html>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#job">Job</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#social">Social Media</a></li>
+      <li><a href="#photo">Photo</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Robbie Robinson and I am passionate about <em>put your passion or interests here</em>. I believe in constantly learning and exploring new things to expand my knowledge and skills.</p>
+  </section>
+  
+  <section id="job">
+    <h2>Job</h2>
+    <p>I currently work as the Head of Field Operations at Streetbees. I lead a team that manages data collection and we are actively working on using AI and ChatGPT to enhance our survey experience.</p>
+  </section>
+  
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Hobby 1</li>
+      <li>Hobby 2</li>
+      <li>Hobby 3</li>
+    </ul>
+  </section>
+  
+  <section id="cv">
+    <h2>CV</h2>
+    <p>Download my CV <a href="path/to/your/cv.pdf">here</a>.</p>
+  </section>
+  
+  <section id="social">
+    <h2>Social Media</h2>
+    <ul>
+      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+      <li><a href="https://www.twitter.com/">Twitter</a></li>
+      <li><a href="https://www.github.com/">GitHub</a></li>
+    </ul>
+  </section>
+
+  <section id="photo">
+    <h2>Photo</h2>
+    <div class="photo">
+      <img src="images/178128092_518623075818400_8516891870586784764_n.jpg" alt="Robbie Robinson">
+    </div>
+  </section>
+</body>
+</html>
+
 
