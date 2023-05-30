@@ -62,51 +62,51 @@
       object-fit: cover;
     }
   </style>
-</head>
-<body>
-  <header>
-    <h1>Robbie Robinson</h1>
-  </header>
+  </head>
+  <body>
+    <header>
+      <h1>Robbie Robinson</h1>
+    </header>
+    
+    <section>
+      <h2>About Me</h2>
+      <p>Hello! My name is Robbie Robinson and I am passionate about <em>put your passion or interests here</em>. I believe in constantly learning and exploring new things to expand my knowledge and skills.</p>
+    </section>
+    
+    <section>
+      <h2>Job</h2>
+      <p>I currently work as the Head of Field Operations at Streetbees. I lead a team that manages data collection and we are actively working on using AI and ChatGPT to enhance our survey experience.</p>
+    </section>
+    
+    <section>
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Hobby 1</li>
+        <li>Hobby 2</li>
+        <li>Hobby 3</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>CV</h2>
+      <p>Download my CV <a href="path/to/your/cv.pdf">here</a>.</p>
+    </section>
+    
+    <section>
+      <h2>Social Media</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        <li><a href="https://www.twitter.com/">Twitter</a></li>
+        <li><a href="https://www.github.com/">GitHub</a></li>
+      </ul>
+    </section>
   
-  <section>
-    <h2>About Me</h2>
-    <p>Hello! My name is Robbie Robinson and I am passionate about <em>put your passion or interests here</em>. I believe in constantly learning and exploring new things to expand my knowledge and skills.</p>
-  </section>
-  
-  <section>
-    <h2>Job</h2>
-    <p>I currently work as the Head of Field Operations at Streetbees. I lead a team that manages data collection and we are actively working on using AI and ChatGPT to enhance our survey experience.</p>
-  </section>
-  
-  <section>
-    <h2>Hobbies</h2>
-    <ul>
-      <li>Hobby 1</li>
-      <li>Hobby 2</li>
-      <li>Hobby 3</li>
-    </ul>
-  </section>
-  
-  <section>
-    <h2>CV</h2>
-    <p>Download my CV <a href="path/to/your/cv.pdf">here</a>.</p>
-  </section>
-  
-  <section>
-    <h2>Social Media</h2>
-    <ul>
-      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-      <li><a href="https://www.twitter.com/">Twitter</a></li>
-      <li><a href="https://www.github.com/">GitHub</a></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Photo</h2>
-    <div class="photo">
-      <img src="images/178128092_518623075818400_8516891870586784764_n.jpg" alt="Robbie Robinson">
-    </div>
-  </section>
-</body>
-</html>
+    <section>
+      <h2>Photo</h2>
+      <div class="photo">
+        <img src="images/178128092_518623075818400_8516891870586784764_n.jpg" alt="Robbie Robinson">
+      </div>
+    </section>
+  </body>
+  </html>
 
